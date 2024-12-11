@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <link rel="icon" href="photos/icon.png">
+    <title>Julian Osika - portfolio</title>
+</head>
+<body>
+    <div id="container">
+
+        <div id="content">
+            <form action="/submit" method="POST">
+                <h2>Skontaktuj się z nami</h2>
+                <label for="firstName">Imię:</label>
+                <input type="text" id="firstName" name="firstName" required><br><br>
+        
+                <label for="lastName">Nazwisko (obecne):</label>
+                <input type="text" id="lastName" name="lastName" required><br><br>
+        
+                <label for="phoneNumber">Kontaktowy nr telefonu:</label>
+                <input type="tel" id="phoneNumber" name="phoneNumber" required><br><br>
+        
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br><br>
+        
+                <label for="additionalInfo">Nazwy szukanych zakładów (podaj miejscowość, w której była głowna siedziba):</label>
+                <textarea id="text" name="additionalInfo" rows="4" cols="50"></textarea><br><br>
+        
+                <button type="submit">Wyślij</button>
+            </form>
+        </div>
+
+        <script src="script.js"></script>
+    </div>
+</body>
+</html>
